@@ -1,0 +1,42 @@
+#footer.classic_footer a:hover {
+    color: #fff; opacity: 0.6;
+}
+#footer.classic_footer {
+    background-color: #ee1c52;color: #fff;
+}
+.xd_background_section01, #back-to-top:hover{
+    background-color: #8DBF44;
+}
+.xd_background_section02{
+    background-color: #ee1c52;
+}
+.xd_color_texto_variable{
+    color: #ee1c52;
+}
+.xd_font-marca, .xd_highlites_productos, .xd_highlites_marca, .xd_highlites_tienda, .xd_highlites_clientes, ul.productos-inner li span, .xd_productcard-text span{
+    font-family: bebas_neuebold;
+}
+.xd_highlites_productos {
+    color: #D31D4D;
+}
+.xd_highlites_marca {
+    color: #FDD37B;
+}
+.xd_highlites_tienda {
+    color: #FFFFFF;
+}
+.xd_highlites_clientes {
+    color: #DA6536;
+}
+.thisdiv-01, .xd_icon_slctor01 {
+    background-color: #8EC549;
+}
+.thisdiv-02, .xd_icon_slctor02 {
+    background-color: #DF6237;
+}
+.thisdiv-03, .xd_icon_slctor03 {
+    background-color: #72C3D6;
+}
+.thisdiv-04, .xd_icon_slctor04 {
+    background-color: #EE1C52;
+}

@@ -1,0 +1,248 @@
+.bgsize450 {
+    background-size: 350px auto !important;
+}
+
+.bgsize200 {
+    background-size: 200px auto !important;
+}
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.xd_imgfmicono {
+    margin: auto;
+    width: 35%;
+}
+
+.xd_centerimg {
+    margin: 20% auto;
+    z-index: 333;
+}
+
+.xd_centerimg img {
+    width: 300px;
+}
+
+.thisdiv-01,
+.thisdiv-02,
+.thisdiv-03,
+.thisdiv-04 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.thisdiv-01,
+.xd_icon_slctor01 {
+    background-color: #8EC549;
+}
+
+.thisdiv-02,
+.xd_icon_slctor02 {
+    background-color: #DF6237;
+}
+
+.thisdiv-03,
+.xd_icon_slctor03 {
+    background-color: #72C3D6;
+}
+
+.thisdiv-04,
+.xd_icon_slctor04 {
+    background-color: #EE1C52;
+}
+
+.xd_productcard-text {
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+#sticky .nav-link {
+    display: block;
+    padding: 0px;
+}
+
+#sticky .popover {
+    border: none;
+    outline: none;
+    padding: 0px;
+    width: 120px;
+    z-index: 9999;
+    position: relative;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 2px 30px 65px 5px rgba(0, 0, 0, 0.2);
+    background-color: #000;
+}
+
+#sticky .popover .popover-header {
+    background-color: #000;
+    padding: 8px;
+    border: none !important;
+    font-size: 17px;
+    font-family: 'riffic_freebold';
+}
+
+#sticky .popover-body {
+    padding: 0;
+    color: inherit;
+}
+
+#sticky .popover>.arrow {
+    display: none !important;
+}
+
+img.bg-svgproducts {
+    width: 100%;
+    height: 100%;
+}
+
+.height-90vh {
+    height: 90vh !important;
+}
+
+ul.productos-inner {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.productos-inner li {
+    color: #fff;
+    float: left;
+}
+
+ul.productos-inner li.w-25 {
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: helvetica;
+    font-weight: 600;
+}
+
+ul.productos-inner li span,
+.xd_productcard-text span {
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+ul.productos-inner li.w-12-5 {
+    width: 12.5%;
+    text-align: center;
+}
+
+.modal-backdrop.show {
+    display: none !important;
+}
+
+#tags button.dropdown-toggle {
+    width: auto !important;
+    padding: 0px 25px;
+}
+
+.menu-aside {
+    width: 50px;
+}
+
+.menu-aside li a img {
+    height: 70px;
+    margin-left: -75px;
+    -webkit-transition: all 0.8s !important;
+    -moz-transition: all 0.8s !important;
+    transition: all 0.8s !important;
+}
+
+.menu-aside li a img:hover {
+    margin-left: 0px;
+    -webkit-transition: all 0.3s !important;
+    -moz-transition: all 0.3s !important;
+    transition: all 0.3s !important;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: transparent;
+    }
+
+    
+
+    .thisdiv-01,
+    .thisdiv-04 {
+        transform: none;
+    }
+
+    .thisdiv-02,
+    .thisdiv-03 {
+        transform: none;
+    }
+
+    .xd_centerimg {
+        margin: 60% auto;
+        z-index: 333;
+    }
+
+    .xd_centerimg img {
+        width: 200px;
+    }
+
+    .xd_scrolldown a {
+        bottom: 10vh;
+    }
+
+    .height-90vh {
+        height: 80vh !important;
+    }
+
+    img.xd_imgfmicono {
+        width: 70%;
+    }
+
+    #xd_crashing_elemts.xd_background_section02 {
+        background-image: none !important;
+        background-color: transparent !important;
+    }
+
+    #modal-mobile1.modal,
+    #modal-mobile2.modal,
+    #modal-mobile3.modal,
+    #modal-mobile4.modal {
+        top: 50px;
+    }
+
+    #modal-mobile1.modal .modal-lg,
+    #modal-mobile2.modal .modal-lg,
+    #modal-mobile3.modal .modal-lg,
+    #modal-mobile4.modal .modal-lg {
+        margin: 20px 15px 0px;
+    }
+
+    .xd_productcard-text {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 20px 0px;
+    }
+
+    #modal-mobile1.modal .close,
+    #modal-mobile2.modal .close,
+    #modal-mobile3.modal .close,
+    #modal-mobile4.modal .close {
+        background-color: transparent;
+        color: #fff;
+        font-size: 27px;
+    }
+}
